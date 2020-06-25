@@ -6,14 +6,21 @@ namespace lab2_5varsyntacinputoutputconsoleapp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Big World!");
             // Lab 2_5
 
             // 1. Write a C# program to print on screen the output of adding, subtracting, multiplying and dividing of two numbers which will be entered by the user.
             int intFirstNumber = 0;
             int intSecondNumber = 0;
+            int intThirdNumber = 0;
             int intResult = 0;
-            dbl dblResult = 0;
+            double dblResult = 0;
+
+            Console.WriteLine("Enter your First Number: ");
+            intFirstNumber = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter your Second Number: ");
+            intSecondNumber = Convert.ToInt32(Console.ReadLine());
 
 
 
@@ -23,7 +30,7 @@ namespace lab2_5varsyntacinputoutputconsoleapp
             // 3. Write a C# program to print the output of multiplication of three numbers which will be entered by the user.
 
             // 4. Write a C# program that takes an age (for example 20) as input and prints something like "You lo
-            // 4. Write a C# program that takes an age (for example 20) as input and prints something like "You look younger than 20 (the age the user entered)".
+            // 5. Write a C# program that takes an age (for example 20) as input and prints something like "You look younger than 20 (the age the user entered)".
 
 
 
