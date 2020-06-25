@@ -6,7 +6,7 @@ namespace lab2_5varsyntacinputoutputconsoleapp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Big World!");
+            Console.WriteLine("Hello Big Old World!");
             // Lab 2_5
 
             // 1. Write a C# program to print on screen the output of adding, subtracting, multiplying and dividing of two numbers which will be entered by the user.
